@@ -6,7 +6,7 @@ const Header = () => {
             <div className="header-inner">
                 <h1 className="logo">
                     <Link to="/" aria-label="RUNWAY 홈으로 이동">
-                        <img src="/images/runway-logo.png" alt="RUNWAY" />
+                        <img src={`${import.meta.env.BASE_URL}images/runway-logo.png`} alt="RUNWAY" />
                     </Link>
                 </h1>
                 <nav aria-label="주요 메뉴">

@@ -14,7 +14,10 @@ const Visual = () => (
         >
             {slides.map((number) => (
                 <SwiperSlide key={number}>
-                    <img src={`/images/visual${number}.webp`} alt={`주요 상품 이미지 ${number}`} />
+                    <img
+                        src={`${import.meta.env.BASE_URL}images/visual${number}.webp`}
+                        alt={`주요 상품 이미지 ${number}`}
+                    />
                 </SwiperSlide>
             ))}
         </Swiper>
