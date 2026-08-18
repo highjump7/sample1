@@ -9,20 +9,12 @@ const Header = () => {
                         <img src="/images/runway-logo.png" alt="RUNWAY" />
                     </Link>
                 </h1>
-                <nav>
+                <nav aria-label="주요 메뉴">
                     <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/products">Products</Link>
-                        </li>
-                        <li>
-                            <Link to="/board">Board</Link>
-                        </li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/board">Board</Link></li>
                     </ul>
                 </nav>
             </div>

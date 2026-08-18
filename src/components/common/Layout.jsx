@@ -2,13 +2,12 @@ import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
-const Layout = () => {
-    return <div className="layout">
+const Layout = () => (
+    <div className="layout">
         <Header />
-        {/* 변경되는 컴포넌트 */}
         <Outlet />
         <Footer />
-    </div>;
-};
+    </div>
+);
 
 export default Layout;
